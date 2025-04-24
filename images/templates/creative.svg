@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="512" height="512" fill="#F3F4F6"/>
+    
+    <!-- Resume Paper -->
+    <rect x="96" y="32" width="320" height="448" rx="8" fill="white" stroke="#E5E7EB" stroke-width="2"/>
+    
+    <!-- Decorative Background Pattern -->
+    <path d="M96 32h320l-320 448h320" stroke="#4F46E5" stroke-width="1" stroke-dasharray="4 4"/>
+    
+    <!-- Header Section -->
+    <rect x="128" y="64" width="160" height="96" rx="4" fill="#4F46E5"/>
+    <circle cx="308" cy="112" r="40" fill="#EEF2FF" stroke="#4F46E5" stroke-width="2"/>
+    <rect x="144" y="80" width="120" height="12" rx="4" fill="white"/>
+    <rect x="144" y="100" width="80" height="8" rx="4" fill="#EEF2FF"/>
+    
+    <!-- Content Sections -->
+    <rect x="128" y="192" width="256" height="12" rx="4" fill="#4F46E5"/>
+    <path d="M128 216h256" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+    <path d="M128 228h256" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+    <path d="M128 240h192" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+    
+    <rect x="128" y="272" width="256" height="12" rx="4" fill="#4F46E5"/>
+    <path d="M128 296h256" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+    <path d="M128 308h256" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+    <path d="M128 320h192" stroke="#E5E7EB" stroke-width="2" stroke-linecap="round" stroke-dasharray="4 8"/>
+    
+    <!-- Skills Section -->
+    <path d="M128 352a12 12 0 0 1 12-12h40a12 12 0 0 1 12 12v0a12 12 0 0 1-12 12h-40a12 12 0 0 1-12-12v0z" fill="#EEF2FF" stroke="#4F46E5"/>
+    <path d="M200 352a12 12 0 0 1 12-12h56a12 12 0 0 1 12 12v0a12 12 0 0 1-12 12h-56a12 12 0 0 1-12-12v0z" fill="#EEF2FF" stroke="#4F46E5"/>
+    <path d="M288 352a12 12 0 0 1 12-12h48a12 12 0 0 1 12 12v0a12 12 0 0 1-12 12h-48a12 12 0 0 1-12-12v0z" fill="#EEF2FF" stroke="#4F46E5"/>
+</svg> 
