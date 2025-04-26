@@ -2,44 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=entry/welcome.html">
-    <title>Redirecting to Resume Builder</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <meta http-equiv="refresh" content="0;url=index.html">
+    <title>Redirecting...</title>
     <style>
         body {
-            font-family: system-ui, -apple-system, sans-serif;
-            min-height: 100vh;
-            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #f0f4ff 0%, #e5eeff 100%);
-            color: #1e293b;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3f4f6;
+            color: #374151;
         }
-        .redirect-message {
-            text-align: center;
-            padding: 2rem;
+
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 4px solid #3b82f6;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-bottom: 20px;
         }
-        h1 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: #4f46e5;
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
         }
+
         a {
-            color: #4f46e5;
+            color: #3b82f6;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="redirect-message">
-        <h1>Redirecting to Resume Builder...</h1>
-        <p>If you are not redirected automatically, <a href="entry/welcome.html">click here</a>.</p>
-    </div>
+    <div class="loader"></div>
+    <p>If you are not redirected automatically, <a href="index.html">click here</a>.</p>
 </body>
 </html>
