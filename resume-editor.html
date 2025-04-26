@@ -64,43 +64,35 @@
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div class="form-group">
                                 <label for="fullName" class="block mb-1 font-medium">Full Name*</label>
-                                <input type="text" id="fullName" name="fullName" required class="w-full px-4 py-2 rounded-lg form-input" 
-                                    placeholder="John Doe">
+                                <input type="text" id="fullName" name="fullName" required class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="jobTitle" class="block mb-1 font-medium">Job Title*</label>
-                                <input type="text" id="jobTitle" name="jobTitle" required class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="Software Engineer">
+                                <input type="text" id="jobTitle" name="jobTitle" required class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="email" class="block mb-1 font-medium">Email*</label>
-                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="johndoe@example.com">
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="phone" class="block mb-1 font-medium">Phone*</label>
-                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="98765 43210 or +91 98765 43210">
+                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="linkedin" class="block mb-1 font-medium">LinkedIn</label>
-                                <input type="url" id="linkedin" name="linkedin" class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="linkedin.com/in/johndoe">
+                                <input type="url" id="linkedin" name="linkedin" class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="github" class="block mb-1 font-medium">GitHub</label>
-                                <input type="url" id="github" name="github" class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="github.com/johndoe">
+                                <input type="url" id="github" name="github" class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="website" class="block mb-1 font-medium">Website</label>
-                                <input type="url" id="website" name="website" class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="www.johndoe.com">
+                                <input type="url" id="website" name="website" class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group">
                                 <label for="address" class="block mb-1 font-medium">Address</label>
-                                <input type="text" id="address" name="address" class="w-full px-4 py-2 rounded-lg form-input"
-                                    placeholder="City, State, Country">
+                                <input type="text" id="address" name="address" class="w-full px-4 py-2 rounded-lg form-input">
                             </div>
                             <div class="form-group col-span-2">
                                 <div class="flex items-center justify-between mb-2">
@@ -138,8 +130,7 @@
                         <h2 class="section-title text-xl">Professional Summary</h2>
                         <div class="form-group">
                             <label class="block font-medium">Summary*</label>
-                            <textarea id="summary" name="summary" rows="4" required class="w-full px-4 py-2 rounded-lg form-input"
-                                placeholder="A brief overview of your professional background and career objectives (50-100 words recommended)"></textarea>
+                            <textarea id="summary" name="summary" rows="4" required class="w-full px-4 py-2 rounded-lg form-input"></textarea>
                             <div class="flex justify-between items-center mt-1">
                                 <span class="text-sm text-gray-500">Word count: <span id="wordCount">0</span></span>
                                 <span class="text-sm text-gray-500">Character count: <span id="charCount">0</span></span>
@@ -152,7 +143,7 @@
                         <h2 class="section-title text-xl">Skills</h2>
                         <div class="form-group">
                             <div class="flex gap-2">
-                                <input type="text" id="skillInput" placeholder="e.g., JavaScript, Project Management, Team Leadership" class="w-full px-4 py-2 rounded-lg form-input">
+                                <input type="text" id="skillInput" placeholder="Add a skill" class="flex-1 px-4 py-2 rounded-lg form-input">
                                 <button type="button" id="addSkillBtn" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Add</button>
                             </div>
                             <div id="skillsContainer" class="mt-3 flex flex-wrap">
@@ -169,8 +160,7 @@
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-3">
                                     <div class="form-group">
                                         <label for="jobTitle1" class="block mb-1 font-medium">Job Title*</label>
-                                        <input type="text" name="jobTitle[]" required class="w-full px-4 py-2 rounded-lg form-input"
-                                            placeholder="e.g., Senior Software Engineer">
+                                        <input type="text" name="jobTitle[]" required class="w-full px-4 py-2 rounded-lg form-input">
                                     </div>
                                     <div class="form-group">
                                         <label for="company1" class="block mb-1 font-medium">Company*</label>
@@ -295,7 +285,7 @@
                         <button type="button" id="showSavedResumesBtn" class="px-6 py-3 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition">
                             <i class="fas fa-bookmark mr-2"></i>Saved Resumes
                         </button>
-                        <button type="button" id="atsScoreBtn" class="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">
+                        <button type="button" id="atsScoreBtn" class="px-6 py-3 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition">
                             <i class="fas fa-chart-line mr-2"></i>ATS Score
                         </button>
                     </div>
@@ -309,7 +299,7 @@
                         <h2 class="text-xl font-semibold">Resume Preview</h2>
                     </div>
                     
-                    <div id="resumePreview" class="resume-preview bg-white rounded-lg overflow-hidden" style="width: 210mm; height: 297mm; transform: scale(0.6); transform-origin: top center;">
+                    <div id="resumePreview" class="resume-preview template-professional rounded-lg overflow-hidden" style="width: 210mm; height: 297mm; transform: scale(0.6); transform-origin: top center;">
                         <div class="header p-6">
                             <div class="flex items-start justify-between">
                                 <div>
@@ -394,14 +384,14 @@
     </button>
 
     <!-- Back button -->
-    <a href="../entry/welcome.html" class="fixed top-20 right-4 bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition shadow-lg flex items-center z-50">
-        <i class="fas fa-arrow-left mr-2"></i>Back
+    <a href="entry/welcome.html" style="position: fixed; top: 5rem; right: 1rem; background-color: #3B82F6; color: white; padding: 0.5rem 1rem; border-radius: 0.5rem; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); display: flex; align-items: center; z-index: 50; text-decoration: none;">
+        <i class="fas fa-arrow-left" style="margin-right: 0.5rem;"></i>Back
     </a>
     
     <!-- Fullscreen Preview Modal -->
     <div id="fullscreenPreview" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden">
-        <button id="closePreviewBtn" class="absolute top-4 right-4 bg-white text-gray-800 hover:text-gray-600 p-2 rounded-full transition">
-            <i class="fas fa-times text-xl"></i>
+        <button id="closePreviewBtn" class="text-gray-800 hover:text-gray-600 transition">
+            <i class="fas fa-times"></i>
         </button>
         <div id="fullscreenPreviewContent" class="bg-white rounded-lg overflow-auto">
             <div class="fullscreen-preview-container">
@@ -413,32 +403,24 @@
     <!-- ATS Score Modal -->
     <div id="atsScoreModal" class="fixed inset-0 bg-black bg-opacity-75 z-50 hidden">
         <div class="flex items-center justify-center min-h-screen p-4">
-            <div class="bg-white rounded-lg max-w-2xl w-full p-6 max-h-[90vh] overflow-y-auto">
-                <div class="flex justify-between items-center mb-6">
+            <div class="bg-white rounded-lg max-w-2xl w-full p-6">
+                <div class="flex justify-between items-center mb-4">
                     <h2 class="text-2xl font-bold text-gray-800">ATS Score Analysis</h2>
-                    <button id="closeAtsScoreBtn" class="text-gray-500 hover:text-gray-700 p-2">
-                        <i class="fas fa-times text-xl"></i>
+                    <button id="closeAtsScoreBtn" class="text-gray-500 hover:text-gray-700">
+                        <i class="fas fa-times"></i>
                     </button>
                 </div>
-                <div class="mb-8">
-                    <div class="flex items-center justify-center mb-6">
-                        <div class="text-7xl font-bold text-blue-600" id="atsScoreValue">0</div>
-                        <div class="text-3xl font-bold text-gray-600 ml-2">/100</div>
+                <div class="mb-6">
+                    <div class="flex items-center justify-center mb-4">
+                        <div class="text-6xl font-bold text-purple-600" id="atsScoreValue">0</div>
+                        <div class="text-2xl font-bold text-gray-600 ml-2">/100</div>
                     </div>
-                    <div class="w-full bg-gray-200 rounded-full h-4">
-                        <div id="atsScoreBar" class="bg-blue-600 h-4 rounded-full transition-all duration-500 shadow-sm" style="width: 0%"></div>
+                    <div class="w-full bg-gray-200 rounded-full h-4 mb-4">
+                        <div id="atsScoreBar" class="bg-purple-600 h-4 rounded-full" style="width: 0%"></div>
                     </div>
                 </div>
-                <div class="space-y-6" id="atsScoreDetails">
+                <div class="space-y-4 max-h-[50vh] overflow-y-auto pr-2" id="atsScoreDetails">
                     <!-- Score details will be populated here -->
-                </div>
-                <div class="mt-8 pt-6 border-t border-gray-200">
-                    <h3 class="text-xl font-bold text-gray-800 mb-4">Improvement Tips</h3>
-                    <div class="bg-blue-50 p-6 rounded-lg shadow-sm">
-                        <ul class="space-y-4 text-gray-700" id="atsTips">
-                            <!-- Tips will be populated here -->
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
@@ -1155,22 +1137,6 @@
             
             // Download PDF Button
             document.getElementById('downloadPdfBtn').addEventListener('click', function() {
-                // Validate phone if provided
-                const phoneInput = document.getElementById('phone');
-                if (phoneInput.value && !validatePhone(phoneInput.value)) {
-                    alert('Please enter a valid phone number');
-                    phoneInput.focus();
-                    return;
-                }
-
-                // Validate email if provided
-                const emailInput = document.getElementById('email');
-                if (emailInput.value && !validateEmail(emailInput.value)) {
-                    alert('Please enter a valid email address');
-                    emailInput.focus();
-                    return;
-                }
-
                 // First update the preview to ensure it's current
                 updatePreview();
                 
@@ -1271,9 +1237,7 @@
                         linkedin: document.getElementById('linkedin').value,
                         github: document.getElementById('github').value,
                         website: document.getElementById('website').value,
-                        address: document.getElementById('address').value,
-                        includePhoto: document.getElementById('includePhoto').checked,
-                        photoFrameStyle: document.querySelector('input[name="photoFrameStyle"]:checked').value
+                        address: document.getElementById('address').value
                     },
                     summary: document.getElementById('summary').value,
                     skills: Array.from(document.querySelectorAll('#skillsContainer .skill-tag'))
@@ -1392,14 +1356,6 @@
                     document.getElementById('github').value = data.personalInfo.github || '';
                     document.getElementById('website').value = data.personalInfo.website || '';
                     document.getElementById('address').value = data.personalInfo.address || '';
-                    
-                    // Load photo preferences
-                    const includePhotoCheckbox = document.getElementById('includePhoto');
-                    includePhotoCheckbox.checked = data.personalInfo.includePhoto || false;
-                    if (data.personalInfo.photoFrameStyle) {
-                        document.querySelector(`input[name="photoFrameStyle"][value="${data.personalInfo.photoFrameStyle}"]`).checked = true;
-                    }
-                    includePhotoCheckbox.dispatchEvent(new Event('change'));
                     
                     // Load summary
                     document.getElementById('summary').value = data.summary || '';
@@ -1568,12 +1524,10 @@
                 const atsScoreValue = document.getElementById('atsScoreValue');
                 const atsScoreBar = document.getElementById('atsScoreBar');
                 const atsScoreDetails = document.getElementById('atsScoreDetails');
-                const atsTips = document.getElementById('atsTips');
                 
                 // Calculate scores for each section
                 let totalScore = 0;
                 let details = [];
-                let tips = [];
                 
                 // Personal Information (20 points)
                 let personalInfoScore = 0;
@@ -1602,47 +1556,34 @@
                     section: 'Personal Information',
                     score: personalInfoScore,
                     maxScore: 20,
-                    feedback: `You have ${personalInfoScore}/20 points in personal information.`
+                    feedback: `You have ${personalInfoScore}/20 points in personal information. ${personalInfoScore < 15 ? 'Consider adding more contact details.' : 'Good job on providing comprehensive contact information!'}`
                 });
-                
-                if (personalInfoScore < 15) {
-                    tips.push('Add more contact details to improve your visibility to recruiters.');
-                }
                 
                 // Professional Summary (15 points)
                 const summary = document.getElementById('summary').value.trim();
                 let summaryScore = 0;
                 if (summary) {
-                    const words = summary.split(/\s+/).filter(word => word.length > 0);
-                    summaryScore = Math.min(15, Math.floor(words.length / 10) * 3);
+                    summaryScore = Math.min(15, Math.floor(summary.length / 50) + 5);
                 }
                 totalScore += summaryScore;
                 details.push({
                     section: 'Professional Summary',
                     score: summaryScore,
                     maxScore: 15,
-                    feedback: `You have ${summaryScore}/15 points in your summary.`
+                    feedback: `You have ${summaryScore}/15 points in your summary. ${summaryScore < 10 ? 'Consider expanding your summary to better highlight your qualifications.' : 'Your summary is well-written!'}`
                 });
-                
-                if (summaryScore < 10) {
-                    tips.push('Expand your professional summary to 50-100 words highlighting your key qualifications.');
-                }
                 
                 // Skills (15 points)
                 const skills = Array.from(document.querySelectorAll('#skillsContainer .skill-tag'))
                     .map(tag => tag.textContent.trim().replace('×', ''));
-                const skillsScore = Math.min(15, skills.length * 2);
+                const skillsScore = Math.min(15, skills.length);
                 totalScore += skillsScore;
                 details.push({
                     section: 'Skills',
                     score: skillsScore,
                     maxScore: 15,
-                    feedback: `You have ${skillsScore}/15 points in skills.`
+                    feedback: `You have ${skillsScore}/15 points in skills. ${skillsScore < 10 ? 'Consider adding more relevant skills.' : 'Great variety of skills!'}`
                 });
-                
-                if (skillsScore < 10) {
-                    tips.push('Add more relevant technical and soft skills (aim for 6-8 key skills).');
-                }
                 
                 // Experience (25 points)
                 const experienceItems = document.querySelectorAll('.experience-item');
@@ -1651,14 +1592,7 @@
                     const jobTitle = item.querySelector('input[name="jobTitle[]"]').value.trim();
                     const company = item.querySelector('input[name="company[]"]').value.trim();
                     const description = item.querySelector('textarea[name="jobDescription[]"]').value.trim();
-                    
-                    if (jobTitle && company) {
-                        experienceScore += 3;
-                        if (description) {
-                            const words = description.split(/\s+/).filter(word => word.length > 0);
-                            experienceScore += Math.min(2, Math.floor(words.length / 20));
-                        }
-                    }
+                    if (jobTitle && company && description) experienceScore += 5;
                 });
                 experienceScore = Math.min(25, experienceScore);
                 totalScore += experienceScore;
@@ -1666,12 +1600,8 @@
                     section: 'Work Experience',
                     score: experienceScore,
                     maxScore: 25,
-                    feedback: `You have ${experienceScore}/25 points in work experience.`
+                    feedback: `You have ${experienceScore}/25 points in work experience. ${experienceScore < 15 ? 'Consider adding more detailed work experience.' : 'Your work experience is well-documented!'}`
                 });
-                
-                if (experienceScore < 15) {
-                    tips.push('Include detailed work experience with quantifiable achievements and responsibilities.');
-                }
                 
                 // Education (25 points)
                 const educationItems = document.querySelectorAll('.education-item');
@@ -1679,12 +1609,7 @@
                 educationItems.forEach(item => {
                     const degree = item.querySelector('input[name="degree[]"]').value.trim();
                     const institution = item.querySelector('input[name="institution[]"]').value.trim();
-                    const gpa = item.querySelector('input[name="gpa[]"]').value.trim();
-                    
-                    if (degree && institution) {
-                        educationScore += 5;
-                        if (gpa) educationScore += 2;
-                    }
+                    if (degree && institution) educationScore += 8;
                 });
                 educationScore = Math.min(25, educationScore);
                 totalScore += educationScore;
@@ -1692,234 +1617,34 @@
                     section: 'Education',
                     score: educationScore,
                     maxScore: 25,
-                    feedback: `You have ${educationScore}/25 points in education.`
+                    feedback: `You have ${educationScore}/25 points in education. ${educationScore < 15 ? 'Consider adding more education details.' : 'Your education background is well-presented!'}`
                 });
                 
-                if (educationScore < 15) {
-                    tips.push('Add your complete educational background including degrees, institutions, and GPAs if applicable.');
-                }
-                
-                // Update the score display with animation
-                const currentScore = parseInt(atsScoreValue.textContent);
-                const scoreIncrement = Math.ceil((totalScore - currentScore) / 50);
-                let displayScore = currentScore;
-                
-                const animateScore = () => {
-                    if (displayScore < totalScore) {
-                        displayScore = Math.min(totalScore, displayScore + scoreIncrement);
-                        atsScoreValue.textContent = displayScore;
-                        atsScoreBar.style.width = `${displayScore}%`;
-                        requestAnimationFrame(animateScore);
-                    }
-                };
+                // Update the score display
+                atsScoreValue.textContent = totalScore;
+                atsScoreBar.style.width = `${totalScore}%`;
                 
                 // Update the details section
                 atsScoreDetails.innerHTML = details.map(detail => `
-                    <div class="bg-gray-50 rounded-lg p-4">
-                        <div class="flex justify-between items-center mb-2">
-                            <h3 class="font-semibold text-lg">${detail.section}</h3>
-                            <span class="text-lg font-medium ${detail.score === detail.maxScore ? 'text-green-600' : 'text-blue-600'}">${detail.score}/${detail.maxScore}</span>
+                    <div class="mb-4">
+                        <div class="flex justify-between items-center mb-1">
+                            <h3 class="font-semibold">${detail.section}</h3>
+                            <span class="text-gray-600">${detail.score}/${detail.maxScore}</span>
                         </div>
-                        <div class="w-full bg-gray-200 rounded-full h-3 mb-2">
-                            <div class="bg-blue-600 h-3 rounded-full transition-all duration-500 shadow-sm" style="width: ${(detail.score/detail.maxScore)*100}%"></div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="bg-purple-600 h-2 rounded-full" style="width: ${(detail.score/detail.maxScore)*100}%"></div>
                         </div>
-                        <p class="text-gray-600">${detail.feedback}</p>
+                        <p class="text-sm text-gray-600 mt-1">${detail.feedback}</p>
                     </div>
                 `).join('');
                 
-                // Update the tips section with improved styling
-                if (tips.length > 0) {
-                    atsTips.innerHTML = tips.map(tip => `
-                        <li class="flex items-start">
-                            <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-blue-100 text-blue-600 mr-3 flex-shrink-0">
-                                <i class="fas fa-info-circle"></i>
-                            </span>
-                            <span class="flex-1">${tip}</span>
-                        </li>
-                    `).join('');
-                } else {
-                    atsTips.innerHTML = `
-                        <li class="flex items-start">
-                            <span class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-green-100 text-green-600 mr-3 flex-shrink-0">
-                                <i class="fas fa-check"></i>
-                            </span>
-                            <span class="flex-1 text-green-600">Great job! Your resume looks complete.</span>
-                        </li>
-                    `;
-                }
-                
-                // Show the modal and start animation
+                // Show the modal
                 atsScoreModal.classList.remove('hidden');
-                requestAnimationFrame(animateScore);
             });
             
             // Close ATS Score Modal
             document.getElementById('closeAtsScoreBtn').addEventListener('click', function() {
                 document.getElementById('atsScoreModal').classList.add('hidden');
-            });
-
-            // Add validation functions
-            function validateGPA(value) {
-                if (!value) return true; // GPA is optional
-                const gpa = parseFloat(value);
-                return !isNaN(gpa) && gpa >= 0 && gpa <= 4.0;
-            }
-
-            function validateDate(value, isEndDate = false) {
-                if (!value) return isEndDate; // End date can be empty, start date cannot
-                const selectedDate = new Date(value);
-                const today = new Date();
-                today.setHours(0, 0, 0, 0);
-                return selectedDate <= today;
-            }
-
-            function validateEmail(email) {
-                const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-                return emailRegex.test(email);
-            }
-
-            // Add phone number validation and formatting for Indian numbers
-            function validatePhone(phone) {
-                if (!phone) return true; // Allow empty phone number
-                
-                // Remove all non-digit characters except + for country code
-                const cleanPhone = phone.replace(/[^\d+]/g, '');
-                
-                // Check if it's a valid phone number (allow international formats)
-                // Allow:
-                // 1. Standard local numbers (7-15 digits)
-                // 2. Numbers with country code (+ followed by 7-15 digits)
-                // 3. Numbers with country code without + (1-3 digits followed by 7-15 digits)
-                return /^\+?\d{7,15}$/.test(cleanPhone) || // Format: +1234567890 or 1234567890
-                       /^\d{1,3}\d{7,15}$/.test(cleanPhone); // Format: 911234567890
-            }
-
-            function formatPhoneNumber(phone) {
-                // Keep the original input if it's already well-formatted
-                if (phone.includes(' ') || phone.includes('-') || phone.includes('(') || phone.includes(')')) {
-                    return phone;
-                }
-                
-                // Remove all non-digit characters except +
-                const digits = phone.replace(/[^\d+]/g, '');
-                
-                // If it starts with +, format international number
-                if (digits.startsWith('+')) {
-                    // Format as: +XX XXXX XXXXXX
-                    const countryCode = digits.slice(0, 3);
-                    const remaining = digits.slice(3);
-                    if (remaining.length > 4) {
-                        return `${countryCode} ${remaining.slice(0, 4)} ${remaining.slice(4)}`;
-                    }
-                    return digits;
-                }
-                
-                // For other numbers, use simple spacing
-                if (digits.length > 4) {
-                    return digits.replace(/(\d{4})(?=\d)/g, '$1 ');
-                }
-                
-                return digits;
-            }
-
-            // Add input event listeners for validation
-            document.getElementById('email').addEventListener('input', function() {
-                const isValid = validateEmail(this.value);
-                this.classList.toggle('border-red-500', !isValid);
-                this.classList.toggle('border-gray-300', isValid);
-                
-                const errorMsg = this.parentElement.querySelector('.error-message');
-                if (!isValid) {
-                    if (!errorMsg) {
-                        const error = document.createElement('p');
-                        error.className = 'error-message text-red-500 text-sm mt-1';
-                        error.textContent = 'Please enter a valid email address';
-                        this.parentElement.appendChild(error);
-                    }
-                } else if (errorMsg) {
-                    errorMsg.remove();
-                }
-            });
-
-            // Add phone input validation and formatting
-            const phoneInput = document.getElementById('phone');
-            phoneInput.addEventListener('input', function(e) {
-                // Store cursor position
-                const start = this.selectionStart;
-                const end = this.selectionEnd;
-                const previousLength = this.value.length;
-                
-                // Format the phone number
-                this.value = formatPhoneNumber(this.value);
-                
-                // Restore cursor position
-                const newLength = this.value.length;
-                const cursorAdjust = newLength - previousLength;
-                this.setSelectionRange(start + cursorAdjust, end + cursorAdjust);
-                
-                // Validate and show error if needed
-                const isValid = validatePhone(this.value);
-                this.classList.toggle('border-red-500', !isValid);
-                this.classList.toggle('border-gray-300', isValid);
-                
-                const errorMsg = this.parentElement.querySelector('.error-message');
-                if (!isValid && this.value.length > 0) {
-                    if (!errorMsg) {
-                        const error = document.createElement('p');
-                        error.className = 'error-message text-red-500 text-sm mt-1';
-                        error.textContent = 'Please enter a valid phone number';
-                        this.parentElement.appendChild(error);
-                    }
-                } else if (errorMsg) {
-                    errorMsg.remove();
-                }
-            });
-
-            // Update the phone input placeholder
-            phoneInput.placeholder = "+1 2345 678900 or 1234 567890";
-
-            // Add validation for all GPA inputs
-            document.getElementById('educationFields').addEventListener('input', function(e) {
-                if (e.target.matches('input[name="gpa[]"]')) {
-                    const isValid = validateGPA(e.target.value);
-                    e.target.classList.toggle('border-red-500', !isValid);
-                    e.target.classList.toggle('border-gray-300', isValid);
-                    
-                    const errorMsg = e.target.parentElement.querySelector('.error-message');
-                    if (!isValid) {
-                        if (!errorMsg) {
-                            const error = document.createElement('p');
-                            error.className = 'error-message text-red-500 text-sm mt-1';
-                            error.textContent = 'GPA must be between 0.0 and 4.0';
-                            e.target.parentElement.appendChild(error);
-                        }
-                    } else if (errorMsg) {
-                        errorMsg.remove();
-                    }
-                }
-            });
-
-            // Modify the form submission validation
-            document.getElementById('downloadPdfBtn').addEventListener('click', function(e) {
-                // Validate phone if provided
-                const phoneInput = document.getElementById('phone');
-                if (phoneInput.value && !validatePhone(phoneInput.value)) {
-                    e.preventDefault();
-                    alert('Please enter a valid phone number');
-                    phoneInput.focus();
-                    return;
-                }
-
-                // Validate email if provided
-                const emailInput = document.getElementById('email');
-                if (emailInput.value && !validateEmail(emailInput.value)) {
-                    e.preventDefault();
-                    alert('Please enter a valid email address');
-                    emailInput.focus();
-                    return;
-                }
-
-                // Proceed with PDF generation
             });
         });
     </script>
